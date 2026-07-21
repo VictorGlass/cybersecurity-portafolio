@@ -115,8 +115,8 @@ export type Lab = {
 }
 
 export const labs: Lab[] = [
-  { name: " Trust ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "blackfield" },
-  { name: " - ", platform: "TryHackMe", difficulty: "Easy", os: "Linux", date: "2024-07", hasWriteup: true, slug: "lame" },
+  { name: " Trust ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "trust" },
+  { name: " FirstHacking ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "firsthacking" },
   { name: " - ", platform: "TryHackMe", difficulty: "Medium", os: "Windows", date: "2024-06", hasWriteup: true, slug: "forest" },
   { name: " - ", platform: "DockerLab", difficulty: "Medium", os: "Linux", date: "2024-05", hasWriteup: false, slug: "skyfall" },
   { name: " - ", platform: "MyFirstHack", difficulty: "Medium", os: "Linux", date: "2024-04", hasWriteup: true, slug: "brainpan" },
@@ -142,20 +142,21 @@ export const writeups: Writeup[] = [
     difficulty: "Fácil",
     readingTime: "3h 33m",
     date: "2026-07-19",
-    title: "DockerLabs: Trust",
-    excerpt: "Resolución de la máquina Trust de DockerLabs. Enfocada en reconocimiento web, explotación de malas configuraciones y escalada de privilegios en Linux hasta obtener acceso como root.",
+    title: "Trust",
+    excerpt: "Resolución de la VM Trust de DockerLabs. Enfocada en reconocimiento web, explotación de malas configuraciones y escalada de privilegios en Linux hasta obtener acceso como root.",
     link: "https://github.com/VictorGlass/DockerLabs-Trust", // Reemplaza por tu enlace real de GitHub
     tags: ["Nmap", "Web", "Privilege Escalation", "Linux"]
   },
   {
-    slug: "forest",
-    title: "En Preparación",
-    target: "TryHackMe - ",
+    slug: "dockerlabs-firsthacking",
+    title: "FirstHacking",
+    target: "DockerLabs",
     difficulty: "Easy",
-    date: "Fecha",
-    readingTime: "Tiempo",
-    excerpt: "Ruta de aprendizaje orientada a fundamentos de Ciberseguridad, redes, Blue Team y Red Team.",
-    tags: ["Networking", "Red Team", "BlueTeam"],
+    date: "2026-07-21",
+    readingTime: "45 minutos",
+    excerpt: "Resolución de la VM FirstHacking de DockerLabs, enfocada en reconocimiento de configuraciones e integridad en servicios de archivos.",
+    link: "https://github.com/VictorGlass/DockerLabs-Trust", // Reemplaza por tu enlace real de GitHub
+    tags: ["Nmap", "vsFTPd", "Hardening", "Linux"],
   },
   {
     slug: "brainpan",
