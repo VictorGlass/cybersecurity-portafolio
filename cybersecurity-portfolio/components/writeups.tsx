@@ -9,9 +9,26 @@ export function Writeups() {
       className="relative overflow-hidden border-b border-border py-20"
     >
 
+
+
+
+{/* grid background */}
+      <div
+        aria-hidden="true"
+        className="animate-grid pointer-events-none absolute inset-0 opacity-[0.06]"
+        style={{
+          backgroundImage:
+            "linear-gradient(var(--color-foreground) 1px, transparent 1px), linear-gradient(90deg, var(--color-muted-foreground) 1px, transparent 0px)",
+          backgroundSize: "100px 100px",
+        }}
+      />
       <div className="absolute inset-0 -z-10 animate-grid">
-        <div className="h-[200%] w-[200%] bg-grid opacity-20"></div>
+        <div className="h-[200%] w-[200%] bg-grid opacity-10"></div>
       </div>
+
+
+
+
 
       <div className="mx-auto max-w-6xl px-6">
         <SectionHeading
