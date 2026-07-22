@@ -22,9 +22,9 @@ export const skills = [
 ]
 
 export const stats = [
-  { label: "Lab's Completados", value: "20+" },
-  { label: "Proyectos Desarrollados", value: "7" },
-  { label: "Plataformas de Aprendizaje", value: "6" },
+  { label: "Lab's Completados", value: "2" },
+  { label: "Proyectos Desarrollados", value: "10" },
+  { label: "Plataformas de Aprendizaje", value: "25+" },
   { label: "Certificaciones y Cursos", value: "15+" },
 ]
 
@@ -117,10 +117,12 @@ export type Lab = {
 export const labs: Lab[] = [
   { name: " Trust ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "trust" },
   { name: " FirstHacking ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "firsthacking" },
-  { name: " - ", platform: "TryHackMe", difficulty: "Medium", os: "Windows", date: "2024-06", hasWriteup: true, slug: "forest" },
-  { name: " - ", platform: "DockerLab", difficulty: "Medium", os: "Linux", date: "2024-05", hasWriteup: false, slug: "skyfall" },
-  { name: " - ", platform: "MyFirstHack", difficulty: "Medium", os: "Linux", date: "2024-04", hasWriteup: true, slug: "brainpan" },
-  { name: " - ", platform: "Pwned Labs", difficulty: "Medium", os: "Windows", date: "2024-03", hasWriteup: true, slug: "active" },
+  { name: " - ", platform: " - ", difficulty: "Medium", os: "Windows", date: "2024-06", hasWriteup: true, slug: "forest" },
+  { name: " - ", platform: " - ", difficulty: "Medium", os: "Linux", date: "2024-05", hasWriteup: false, slug: "skyfall" },
+  { name: " - ", platform: " - ", difficulty: "Medium", os: "Linux", date: "2024-04", hasWriteup: true, slug: "brainpan" },
+  { name: " - ", platform: " - ", difficulty: "Medium", os: "Windows", date: "2024-03", hasWriteup: true, slug: "active" },
+  { name: " - ", platform: " - ", difficulty: "Medium", os: "Windows", date: "2024-03", hasWriteup: true, slug: "active" },
+  { name: " - ", platform: " - ", difficulty: "Medium", os: "Windows", date: "2024-03", hasWriteup: true, slug: "active" },
 ]
 
 export type Writeup = {
