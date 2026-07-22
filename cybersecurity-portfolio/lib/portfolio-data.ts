@@ -155,7 +155,7 @@ export const writeups: Writeup[] = [
     date: "2026-07-21",
     readingTime: "45 minutos",
     excerpt: "Resolución de la VM FirstHacking de DockerLabs, enfocada en reconocimiento de configuraciones e integridad en servicios de archivos.",
-    link: "https://github.com/VictorGlass/DockerLabs-Trust", // Reemplaza por tu enlace real de GitHub
+    link: "https://github.com/VictorGlass/DockerLabs-FirstHacking", // Reemplaza por tu enlace real de GitHub
     tags: ["Nmap", "vsFTPd", "Hardening", "Linux"],
   },
   {
