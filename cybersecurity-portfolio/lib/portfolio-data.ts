@@ -22,8 +22,8 @@ export const skills = [
 ]
 
 export const stats = [
-  { label: "Lab's Completados", value: "2" },
-  { label: "Proyectos Desarrollados", value: "10" },
+  { label: "Lab's Completados", value: "3" },
+  { label: "Proyectos Desarrollados", value: "11" },
   { label: "Plataformas de Aprendizaje", value: "25+" },
   { label: "Certificaciones y Cursos", value: "15+" },
 ]
@@ -117,7 +117,7 @@ export type Lab = {
 export const labs: Lab[] = [
   { name: " Trust ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "trust" },
   { name: " FirstHacking ", platform: "DockerLabs", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "firsthacking" },
-  { name: " - ", platform: " - ", difficulty: "Medium", os: "Windows", date: "2024-06", hasWriteup: true, slug: "forest" },
+  { name: " Tproot ", platform: " DockerLabs ", difficulty: "Easy", os: "Linux", date: "2026-07", hasWriteup: true, slug: "tproot" },
   { name: " - ", platform: " - ", difficulty: "Medium", os: "Linux", date: "2024-05", hasWriteup: false, slug: "skyfall" },
   { name: " - ", platform: " - ", difficulty: "Medium", os: "Linux", date: "2024-04", hasWriteup: true, slug: "brainpan" },
   { name: " - ", platform: " - ", difficulty: "Medium", os: "Windows", date: "2024-03", hasWriteup: true, slug: "active" },
@@ -161,14 +161,15 @@ export const writeups: Writeup[] = [
     tags: ["Nmap", "vsFTPd", "Hardening", "Linux"],
   },
   {
-    slug: "brainpan",
-    title: "En Preparación",
-    target: "TryHackMe - ",
-    difficulty: "Medium",
-    date: "Fecha",
-    readingTime: "Tiempo",
-    excerpt: "Laboratorios prácticos para fortalecer habilidades de pentesting y administracion de sistemas.",
-    tags: ["Linux", "Windows", "WebSecurity"],
+    slug: "dockerlabs-tproot",
+    title: "Tproot",
+    target: "DockerLabs ",
+    difficulty: "Easy",
+    date: "2026-07-23",
+    readingTime: "15 minutos",
+    excerpt: "Tproot es una máquina de nivel Easy de DockerLabs centrada en la explotación manual del servicio vsftpd 2.3.4 (CVE-2011-2523).",
+    link: "https://github.com/VictorGlass/DockerLabs-Tproot", // Reemplaza por tu enlace real de GitHub
+    tags: ["Linux", "Netcat", "Nmap", "vsFTPd", "root"],
   },
   {
     slug: "lame",
